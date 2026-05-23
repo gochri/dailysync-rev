@@ -13,6 +13,7 @@ services:
       driver: "json-file"
       options:
         max-size: "10m"
+    command: yarn sync_cn
 
   export-garmin-sessions:
     image: 'daily-sync:latest'
