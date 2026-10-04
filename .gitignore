@@ -31,3 +31,5 @@ _site/
 config.yaml
 
 .env
+
+/db/*.db
